@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ping-Hsuan's personal website">
+        <meta name="author" content="Pin-Hsuan Hsi">
+        <meta name="viewport" content="width=device-width, internal-scale=1.0">  <!-- 視口 -->
+        
+        <title>Ping-Hsuan's Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Luxurious+Roman&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="menu-bar" style="padding:10px">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-light">
+                    <a href="index.html" style="background-color: rgb(250, 250, 250); color:rgb(169, 133, 122);">ABOUT</a>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <a href="research.html" style="background-color: rgb(250, 250, 250); color:rgb(169, 133, 122);">CODING</a>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <a href="journey.html" style="background-color: rgb(250, 250, 250); color:rgb(169, 133, 122);">JOURNEY</a>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <a href="ramen.html" style="background-color: rgb(250, 250, 250); color:rgb(169, 133, 122);">RAMEN</a>
+                </button>
+            </div>
+        </div>
+
+        <!-- introduction -->
+        <div class="intro">
+            <div class="intro-text">
+                <b style="color: rgb(155, 109, 71);">PING-HSUAN HSI</b><br>
+                <b style="color: rgb(155, 109, 71); font-size: large;">席秉萱</b>
+                <br><br>
+                <span>
+                    <b>2020 - 2024 National Yang Ming Chiao Tung University</b>
+                    <br>
+                    Department of Computer Science
+                    <br>
+                    <b>2018 - 2020 Peking University</b>
+                    <br>
+                    Department of Computer Science
+                    <br><br>
+                    <p style="color:rgb(169, 133, 122); font-family: 'Noto Serif TC', serif;">
+                        主要擅長的語言是C++，但最近自學html、css、JavaScript<br>
+                        想往前後端發展看看，藉此機會探索、挑戰自己<br>
+                        雖然還在初學階段，目前寫出來的網頁仍有許多不足<br>
+                        但知道自己正在前進的路上，正在慢慢進步、變得更好
+                    </p>
+                </span>
+            </div>
+
+            <div id="squarePic">
+                <!-- <img src="me.jpg" width="300" style="margin: 40px;"> -->
+                <div style="width:300px; height:300px; background-color: rgb(169, 133, 122);"></div>
+                <img src="me.jpg" width="300" style="position: relative; left: -50px; top: -250px;">
+            </div>
+        </div>
+
+        <!-- 經歷＆專案 -->
+        <div class="container px-4 service" style="margin: -30px; background-color: linen;">
+            <div class="row gx-5" style="padding-left: 100px; padding-right: 100px; background-color: linen;">
+              <div class="col">
+                <div class="p-3 border bg-light">
+                    <h3 style="color: rgb(155, 109, 71)">活動經歷</h3><br>
+                        <ul style="background-color: rgb(250, 250, 250);">
+                            <li class="intro-box">2021.08 - now 19th：資訊種子培訓計畫</li>
+                            <li class="intro-box">2021.08 - 2022.01：擔任「資訊系統基礎與實作」課程助教</li>
+                            <li class="intro-box">2020.08：資誠CSR校園種子營獲築夢踏實獎</li>
+                        </ul>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3 border bg-light">
+                    <h3 style="color: rgb(155, 109, 71)">實作專案</h3><br>
+                    <ul style="background-color: rgb(250, 250, 250);">
+                        <li class="intro-box">機器學習概論專案 (Python)：預測番茄甜度</li>
+                        <li class="intro-box">算法設計與分析期末專案 (C++ & Matlab)：圖像修復</li>
+                        <li class="intro-box">電腦動畫與特效期末專案 (Maya)：短篇動畫</li>
+                        <li class="intro-box">物件導向與資料結構專案 (C++ & SFML)：類RPG遊戲</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><b>EMAIL ADDRESS</b><br>applehsi51102@gmail.com</a></li>
+              <li class="nav-item"><a href="https://github.com/cookieping" class="nav-link px-2 text-muted"><b>GITHUB</b><br>https://github.com/cookieping</a></li>
+              <li class="nav-item"><a href="https://www.linkedin.com/in/秉萱-席-760b60201/" class="nav-link px-2 text-muted"><b>LinkedIn</b><br>https://www.linkedin.com/in/秉萱-席-760b60201/</a></li>
+            </ul>
+            <p class="text-center text-muted">Ping-Hsuan Hsi</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+* {
+    background-color: linen;
+}
+.menu-bar {
+    font-family: 'Luxurious Roman', cursive;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    text-align: right;
+}
+
+.intro {
+    display: flex;
+    flex-wrap:wrap;  /* 寬度不夠，會自動換行 */
+    padding: 200px 100px 200px 100px;
+    justify-content: center;
+}
+
+.intro div {
+    padding: 50px;
+}
+
+.intro-text {
+    color:rgb(67, 79, 91);
+}
+
+div div b {
+    font-size: large;
+}
+
+img {
+    position: relative;
+    left:800px;
+    top:-400px;
+}
+
+.service {
+    position: absolute;
+    top: 850px;
+    left: 100px;
+}
+div {
+    display: block;
+}
+
+h3 {
+    background-color: rgb(250, 250, 250);
+}
+
+.topic {
+    background-color: rgb(169, 133, 122);
+    color: whitesmoke;
+    position: absolute;
+    top: 160px;
+    left: 150px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.intro-box {
+    background-color: rgb(250, 250, 250);
+    color: gray;
+}
+
+.topic-2 {
+    font-family: 'Cairo', sans-serif;
+    color:rgb(111, 87, 79);
+    background-color: linen;
+    padding: 15px 10px 30px 5px;
+    margin-bottom: -10px;
+}
+.text-in-paragraph {
+    font-family: 'Noto Serif TC', serif;
+    color:rgb(169, 133, 122);
+    font-size: 130%;
+    padding: 5px 0px 0px 5px;
+}
+
+.topic-box {
+    padding: 100px;
+}
+.coding-item {
+    font-family: 'Noto Serif TC', serif;
+    color:rgb(169, 133, 122);
+    font-size: 130%;
+    padding: 5px 0px 10px 5px;
+}
+.coding-item-title {
+    color:rgb(111, 87, 79);
+}
+
+.card-title {
+    font-family: 'Noto Serif TC', serif;
+    color:rgb(111, 87, 79);
+}
+.card-text {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 110%;
+}
+
+.weird-move {
+    position:relative; 
+    left:0px; 
+    top:0px
+}
